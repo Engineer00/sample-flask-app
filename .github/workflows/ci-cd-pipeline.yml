@@ -25,9 +25,9 @@ jobs:
     - name: Build and push Docker image
       run: |
         echo "Building Docker image..."
-        docker build -t yourusername/sample-flask-app:1.0 .
+        docker build -t linux0092/sample-flask-app:1.0 .
         echo "Pushing Docker image..."
-        docker push yourusername/sample-flask-app:1.0
+        docker push linux0092/sample-flask-app:1.0
       timeout-minutes: 10  # Increase the timeout if necessary
 
     - name: Log build output
