@@ -14,7 +14,7 @@ This is a simple Flask application that returns a JSON response.
 First, clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/yourusername/sample-flask-app.git
+git clone https://github.com/Engineer00/sample-flask-app.git
 cd sample-flask-app
 2. Build the Docker Image
 Build the Docker image using the Dockerfile provided in this repository:
@@ -22,14 +22,14 @@ Build the Docker image using the Dockerfile provided in this repository:
 bash
 
 
-docker build -t yourusername/sample-flask-app:1.0 .
+docker build -t linux0092/sample-flask-app:1.0 .
 3. Run the Container
 Run the container using the built image:
 
 bash
 
 
-docker run -p 5000:5000 yourusername/sample-flask-app:1.0
+docker run -p 5000:5000 linux0092/sample-flask-app:1.0
 This will start the Flask application and make it available at http://localhost:5000.
 
 4. Test the Application
@@ -58,13 +58,13 @@ Pull the Docker Image:
 bash
 
 
-docker pull yourusername/sample-flask-app:1.0
+docker pull linux0092/sample-flask-app:1.0
 Run the Container:
 
 bash
 
 
-docker run -p 5000:5000 yourusername/sample-flask-app:1.0
+docker run -p 5000:5000 linux0092/sample-flask-app:1.0
 CI/CD Pipeline
 This repository uses a GitHub Actions CI/CD pipeline to automate the build, tag, and push processes. Here are the key steps that the pipeline performs:
 
