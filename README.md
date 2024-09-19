@@ -1,6 +1,6 @@
 # Sample Flask App
 
-Welcome to the Sample Flask App repository! This is a simple Flask application that returns a JSON response.
+This is a simple Flask application that returns a JSON response.
 
 ## Prerequisites
 
